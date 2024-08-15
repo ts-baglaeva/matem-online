@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>HTML Academy: Кэт энерджи</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="icon" href="favicon.ico">
+	<link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="favicons/apple-icon-180x180.png">
+	<link rel="manifest" href="manifest.webmanifest">
+	<link rel="stylesheet" href="styles/styles.css">
+	<script src="scripts/index.js" defer></script>
+</head>
+
+<body class="page__body">
+	<header class="main-header">
+		<a class="main-header__logo logo-header" href="#">
+			<img class="logo-header__logo-image" src="images/logo/logo-pic-mobile.svg" width="33" height="38" alt="Логотип магазина Кэт энерджи.">
+			<img class="logo-header__logo-text" src="images/logo/logo-text.svg" width="101" height="18" alt="Логотип магазина Кэт энерджи.">
+		</a>
+		<nav class="main-header__navigation navigation">
+			<button class="navigation__toggle" type="button">
+				<span class="visually-hidden">Открыть меню</span>
+			</button>
+			<ul class="navigation__list">
+				<li class="navigation__item navigation__item--active">
+					<a class="navigation__link" href="index.html">
+						Главная
+					</a>
+				</li>
+				<li class="navigation__item">
+					<a class="navigation__link" href="catalog.html">
+						Каталог продукции
+					</a>
+				</li>
+				<li class="navigation__item">
+					<a class="navigation__link" href="form.html">
+						Подбор программы
+					</a>
+				</li>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="main-container">
+
+		<section class="hero">
+			<h1 class="hero__title">Функциональное питание для котов</h1>
+			<p class="hero__intro">Занялся собой? Займись котом!</p>
+			<picture>
+				<source width="552" height="499" type="image/png" media="(min-width: 1440px)" srcset="images/hero/hero-cat-food-desktop@1x.png 1x, images/hero/hero-cat-food-desktop@2x.png 2x">
+				<source width="709" height="609" type="image/png" media="(min-width: 768px)" srcset="images/hero/hero-cat-food-tablet@1x.png 1x, images/hero/hero-cat-food-tablet@2x.png 2x">
+				<img class="hero__image" src="images/hero/hero-cat-food-mobile@1x.png" srcset="images/hero/hero-cat-food-mobile@2x.png 2x" width="280" height="270" alt="Оранжевая банка корма 'CAT ENERGY PR' со вкусом курицы.">
+			</picture>
+			<a class="button" href="form.html">Подобрать программу</a>
+		</section>
